@@ -1,0 +1,309 @@
+@charset "UTF-8";
+/*Frank Rothman, Press CSS*/
+.press-item{
+    display:inline-block;
+    background-size:cover;
+}
+.press-item div{
+    display:inline-block;
+    vertical-align:top;
+}
+.press-item:hover .article-image{
+    -webkit-transform: scale(1.1, 1.1);
+    -moz-transform: scale(1.1, 1.1);
+    -ms-transform: scale(1.1, 1.1);
+    -o-transform: scale(1.1, 1.1);
+    transform: scale(1.1, 1.1);
+}
+.half,.full{
+    width:100vw;
+    height:50vw;
+}
+.full .article-title{
+    font-size:3vw;
+}
+.half .article-title{
+    font-size:2.4vw;
+}
+.video-container{
+    width:50%;
+    height:100%;
+}
+.text-container{
+    font-family: Montserrat;
+    width:50%;
+    height:100%;
+    position:relative;
+    text-align:center;
+}
+.picture-container{
+    width:50%;
+    height:100%;
+    overflow:hidden;
+}
+.article-image{
+    background-size:cover;
+    background-position:center;
+    width:100%;
+    height:100%;
+    -webkit-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -ms-transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+    transition: all .25s ease-out; 
+}
+.highlight{
+    font-size:2vw;
+    font-style:oblique;
+    display:inline-block;
+    position:absolute;
+}
+#publish-time{
+    bottom:10px;
+    right:10px;
+}
+#journal-name{
+    bottom:10px;
+    left:10px;
+}
+#item-1{
+    background-color:rgb(0,100,150);
+    color:white;
+}
+#item-1 .highlight{
+    color:rgb(140,180,220);
+}
+#item-1 .article-title{
+    margin-top:20vw;
+}
+#item-2{
+    background-color:rgb(50,80,100);
+    color:white;
+}
+#item-2 .highlight{
+    color:rgb(140,180,180);
+}
+#item-2 .article-title{
+    margin-top:18vw;
+}
+#item-2 .article-image{
+    background-image:url(press-images-reformed/2.jpg);
+}
+#item-3{
+    background-color:rgb(100,100,100);
+    color:white;
+}
+#item-3 .highlight{
+    color:rgb(180,180,180);
+}
+#item-3 .article-title{
+    margin-top:20vw;
+}
+#item-3 .article-image{
+    background-image:url(press-images-reformed/3.png);
+}
+#item-4{
+    background-color: white;
+    color:black;
+}
+#item-4 .highlight{
+    color:rgb(10,10,10);
+}
+#item-4 .article-title{
+    margin-top:18vw;
+}
+#item-4 .article-image{
+    background-image:url(press-images-reformed/4.jpg);
+}
+#item-5{
+
+    background-color:rgb(0,80,100);
+    color:white;
+}
+#item-5 .highlight{
+    color:rgb(140,180,180);
+}
+#item-5 .article-title{
+    margin-top:22vw;
+}
+#item-5 .article-image{
+    background-image:url(press-images-reformed/5.jpg);
+}
+#item-6{
+    background-color:rgb(230,230,230);
+    color:black;
+}
+#item-6 .highlight{
+    color:rgb(80,80,80);
+}
+#item-6 .article-title{
+    margin-top:22vw;
+}
+#item-6 .article-image{
+    background-image:url(press-images-reformed/6.png);
+}
+#item-7{
+    background-color:rgb(0,80,150);
+    color:white;
+}
+#item-7 .highlight{
+    color:rgb(140,180,255);
+}
+#item-7 .article-title{
+    margin-top:20vw;
+}
+#item-7 .article-image{
+    background-image:url(press-images-reformed/7.png);
+}
+#item-8{
+    background-color:black;
+    color:white;
+}
+#item-8 .highlight{
+    color:rgb(180,180,180);
+}
+#item-8 .article-title{
+    margin-top:20vw;
+}
+#item-8 .article-image{
+    background-image:url(press-images-reformed/8.png);
+}
+#item-9{
+    background-color:rgb(0,40,140);
+    color:white;
+}
+#item-9 .highlight{
+    color:rgb(140,180,220);
+}
+#item-9 .article-title{
+    margin-top:20vw;
+}
+#item-9 .article-image{
+    background-image:url(press-images-reformed/9.png);
+}
+#item-10{
+    background-color:rgb(210,210,210);
+    color:black;
+}
+#item-10 .highlight{
+    color:rgb(10,10,10);
+}
+#item-10 .article-title{
+    margin-top:20vw;
+}
+#item-10 .article-image{
+    background-image:url(press-images-reformed/10.png);
+}
+#item-11{
+    background-color:rgb(0,80,150);
+    color:white;
+}
+#item-11 .highlight{
+    color:rgb(140,180,255);
+}
+#item-11 .article-title{
+    margin-top:20vw;
+}
+#item-11 .article-image{
+    background-image:url(press-images-reformed/11.png);
+}
+#item-12{
+    background-color:rgb(0,80,100);
+    color:white;
+}
+#item-12 .highlight{
+    color:rgb(140,180,180);
+}
+#item-12 .article-title{
+    margin-top:20vw;
+}
+#item-12 .article-image{
+    background-image:url(press-images-reformed/12.png);
+}
+@media screen and (min-width: 800px) {
+    .highlight{
+        font-size:15px;
+    }
+}
+@media screen and (min-width: 1100px) {
+    .half{
+        width:550px;
+        height:275px;
+    }
+    .full{
+        width:1100px;
+        height:400px;
+    }
+    .half .article-title{
+        font-size:18px;
+    }
+    .video-container{
+        width:50%;
+        height:340px;
+    }
+    #item-1 .article-title{
+        margin-top:160px;
+        font-size:30px;
+        width:100%;
+        text-align:center;
+    }
+    #item-2 .article-title{
+        margin-top:60px;
+        width:250px;
+        margin-left:15px;
+    }
+    #item-3 .article-title{
+        margin-top:90px;
+        width:250px;
+        margin-left:15px;
+    }
+    #item-4 .article-title{
+        margin-top:110px;
+        font-size:30px;
+        width:475px;
+        text-align:center;
+        margin-left:35px;
+    }
+    #item-5 .article-title{
+        margin-top:100px;
+        width:250px;
+        margin-left:15px;
+    }
+    #item-6 .article-title{
+        margin-top:90px;
+        width:250px;
+        margin-left:15px;
+    }
+    #item-7 .article-title{
+        margin-top:90px;
+        width:250px;
+        margin-left:15px;
+    }
+    #item-8 .article-title{
+        margin-top:90px;
+        width:250px;
+        margin-left:15px;
+    }
+    #item-9 .article-title{
+        margin-top:160px;
+        font-size:30px;
+        width:100%;
+        text-align:center;
+    }
+    #item-10 .article-title{
+        margin-top:160px;
+        font-size:30px;
+        width:100%;
+        text-align:center;
+    }
+    #item-11 .article-title{
+        margin-top:60px;
+        width:250px;
+        margin-left:15px;
+    }
+    #item-12 .article-title{
+        margin-top:90px;
+        width:250px;
+        margin-left:15px;
+    }
+}
